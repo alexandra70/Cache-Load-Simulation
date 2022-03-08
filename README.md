@@ -1,9 +1,9 @@
 # Cache-Load-Simulation
 
-In Columnar Transposition Cipher se doreste criptarea textului primit ca arument
+> In Columnar Transposition Cipher se doreste criptarea textului primit ca arument
 in functie de key - care era deja transformata intr un vector de ordine.
 
-Mod de implementare:
+> Mod de implementare:
     Am doua bucle: Una pentru a parcurge vectorul de ordine.
                    Inca una pentru parcurgerea coloanei(orientativ).
 
@@ -22,7 +22,7 @@ Mod de implementare:
                    format.
 
 
-Cache Load Simulation:
+> Cache Load Simulation:
 
                 In primul rand am urmat algoritmul exact:
 
@@ -41,12 +41,11 @@ Cache Load Simulation:
 
                 Particularitatii de implementare:
                      A fost greu de implemetntat, mi a fost greu sa inteleg exact ce
-                     trebuie sa fac, a durat mult, si doua teste sunt sigure inca incorecte
-                     o sa mai testez odata dupa ce apar mai multe despre cheker.
+                     trebuie sa fac, a durat mult.
 
                      In principu nu e un task imposibil, chiar din contra, numai ca
                      sunt prea multe lucruri de care trebuie sa tii cont avand in vedere
-                     ca se doreste a fi scris in assembly.
+                     ca se doreste sa fie scris in assembly.
                      
                      Deci pt a obtine tagul, respectiv offsetul fac shiftari la 
                      stanga si la dreapa in functie de nevoie. Am trei variabile
