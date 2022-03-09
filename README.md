@@ -23,6 +23,12 @@ in functie de key - care era deja transformata intr un vector de ordine.
 
 
 > Cache Load Simulation:
+> A simple simulation of loading data from memory into registers, considering the 
+existence of the cache. When the processor needs data from a specific address 
+in RAM, first, it looks in Cache to check if the data is there, so we can retrieve 
+the data directly, without interacting with the main memory(saving time). If the 
+data does not yet exist in the cache, the data must first be retrieved from RAM 
+and then transferred to the processor registers, in order to bring them in Cache.
 
                 In primul rand am urmat algoritmul exact:
 
