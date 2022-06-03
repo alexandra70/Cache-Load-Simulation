@@ -46,14 +46,7 @@ and then transferred to the processor registers, in order to bring them in Cache
                     cache, registrul trebuie scris la fel ca la pasul precedent.
 
                 Particularitatii de implementare:
-                     A fost greu de implemetntat, mi a fost greu sa inteleg exact ce
-                     trebuie sa fac, a durat mult.
-
-                     In principu nu e un task imposibil, chiar din contra, numai ca
-                     sunt prea multe lucruri de care trebuie sa tii cont avand in vedere
-                     ca se doreste sa fie scris in assembly.
-                     
-                     Deci pt a obtine tagul, respectiv offsetul fac shiftari la 
+                     Pentru a obtine tagul, respectiv offsetul fac shiftari la 
                      stanga si la dreapa in functie de nevoie. Am trei variabile
                      globale, am incercat sa nu folosesc, numai ca ma incurcam in 
                      push si pop, deci am ales sa fac in felul uramtor.
@@ -89,7 +82,3 @@ and then transferred to the processor registers, in order to bring them in Cache
 
                     stop:
                         Se restaureaza registrele si se termina functia.
-
-
-
-
